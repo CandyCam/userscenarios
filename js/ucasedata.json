@@ -19,7 +19,7 @@
       {"name": "School Sports", "size": 75},
       {"name": "Weddings", "size": 75},
       {"name": "Dance Production", "size": 70},
-      {"name": "Fasion Studio", "size": 60}
+      {"name": "Fashion Studio", "size": 60}
      ]
     },
     {
@@ -82,7 +82,7 @@
     {
      "name": "High Market Value", "class":"high",
      "children": [
-      {"name": "Fasion Studio", "size":75},
+      {"name": "Fashion Studio", "size":75},
       {"name": "Architectural Details", "size":75},
       {"name": "Weddings", "size":70},
       {"name": "System Sequence", "size":70},
