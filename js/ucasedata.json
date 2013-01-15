@@ -1,8 +1,8 @@
 {
- "name": "flare",
+ "name": "Overall Value", "class": "overallVal",
  "children": [
   {
-   "name": "Total Preceived Market Value", "class":"totalMVal",
+   "name": "Total Preceived Market Value", "title":"Marketsize", "class":"totalMVal",
    "children": [
     {
      "name": "Massive Value", "class":"huge",
@@ -55,54 +55,54 @@
    ]
   },
   {
-   "name": "Total PR Value", "class":"totalPRVal",
+   "name": "Total PR Value", "title":"PR", "class":"totalPRVal",
    "children": [
    {
      "name": "Massive Value", "class":"huge",
      "children": [
-      {"name": "Live Concerts", "prval":95},
-      {"name": "Music Videos", "prval":85},
-      {"name": "Gen. Film Prod.", "prval":98},
-      {"name": "Large Product Commercials", "prval":80}
+      {"name": "Awesome Product Shots", "size":110},
+      {"name": "Swag Delivery!", "size":100},
+      {"name": "Robotic Pinata", "size":100},
+      {"name": "Red Carpet Coverage", "size":98},
+      {"name": "Gen. Film Prod.", "size":98},
+      {"name": "Live TV Sports (Acrobatics)", "size":96},
+      {"name": "IMAX Event Coverage", "size":96},
+      {"name": "Fashion Runways", "size":96},
+      {"name": "Dance Production", "size":96},
+      {"name": "Live Concerts", "size":95},
+      {"name": "School Sports", "size":86},
+      {"name": "Interactive Media", "size":85},
+      {"name": "Car(Gimbal)", "size":85},
+      {"name": "Music Videos", "size":85},
+      {"name": "Large Product Commercials", "size":80},
+      {"name": "3D Model Capture", "size":80},
+      {"name": "Nature Videos", "size":77}
      ]
     },
     {
      "name": "High Market Value", "class":"high",
      "children": [
-      {"name": "School Sports", "prval":86},
-      {"name": "Weddings", "prval":70},
-      {"name": "Dance Production", "prval":96},
-      {"name": "Fasion Studio", "prval":75}
+      {"name": "Fasion Studio", "size":75},
+      {"name": "Architectural Details", "size":75},
+      {"name": "Weddings", "size":70},
+      {"name": "System Sequence", "size":70},
+      {"name": "Inventory Management", "size":68},
+      {"name": "Parades", "size":65},
+      {"name": "Reality TV", "size":65},
+      {"name": "Bowling Ball Track", "size":60}
      ]
     },
     {
      "name": "Medium Market Value", "class":"med",
      "children": [
-      {"name": "Fashion Runways", "prval":96},
-      {"name": "Crowd Security", "prval":5},
-      {"name": "3D Model Capture", "prval":80},
-      {"name": "Interactive Media", "prval":85}
+      {"name": "Zoo", "size":40}
      ]
     },
     {
      "name": "Low Market Value", "class":"low",
      "children": [
-      {"name": "Live TV Sports (Acrobatics)", "prval":96},
-      {"name": "IMAX Event Coverage", "prval":96},
-      {"name": "Awesome Product Shots", "prval":110},
-      {"name": "Inventory Management", "prval":68},
-      {"name": "Architectural Details", "prval":75},
-      {"name": "Reality TV", "prval":65},
-      {"name": "Red Carpet Coverage", "prval":98},
-      {"name": "System Sequence", "prval":70},
-      {"name": "Bowling Ball Track", "prval":60},
-      {"name": "Parades", "prval":65},
-      {"name": "Zoo", "prval":40},
-      {"name": "Car(Gimbal)", "prval":85},
-      {"name": "Nature Videos", "prval":77},
-      {"name": "Time Lapse", "prval":10},
-      {"name": "Swag Delivery!", "prval":100},
-      {"name": "Robotic Pinata", "prval":100}
+      {"name": "Time Lapse", "size":10},
+      {"name": "Crowd Security", "size":5}
      ]
     }
    ]

@@ -16,7 +16,7 @@
                 padding-top: 60px;
                 padding-bottom: 40px;
             }
-            .hero-unit h1 {
+            .hero-unit h1, .hero-unit p {
                 text-align: center;
             }
             .bubble, .marketval svg{
@@ -26,17 +26,21 @@
 
             circle {
               fill: rgb(31, 119, 180);
-              fill-opacity: .25;
-              stroke: rgb(31, 119, 180);
+              fill-opacity: 0.9;
+              stroke: gray;
               stroke-width: 1px;
             }
 
             .leaf circle {
-              fill: #ff7f0e;
-              fill-opacity: 1;
+              fill: white;
+              fill-opacity: 0.8;
             }
-
+            .overallVal, .totalMVal, .totalPRVal { fill:transparent; }
             .huge { fill:red; }
+            .high { fill:orange; }
+            .med { fill:lightskyblue; }
+            .low { fill:gray; }
+
         </style>
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -70,7 +74,8 @@
 
             <!-- Main hero unit for a primary marketing message or call to action -->
             <div class="hero-unit marketval">
-                <h1>Magnitude Chart</h1>
+                <h1>Value Chart</h1>
+                <p>Market Size VS PR Value</p>
                 <script src="http://d3js.org/d3.v3.min.js"></script>
                 <script>
 
@@ -95,7 +100,7 @@
                       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
                   node.append("title")
-                      .text(function(d) { return d.name + (d.children ? "" : ": " + format(d.mval)); });
+                      .text(function(d) { return d.name + (d.children ? "" : ": " + format(d.size)); });
 
                   node.append("circle")
                       .attr("class", function(d) { return d.class; })
